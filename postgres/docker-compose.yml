@@ -1,6 +1,5 @@
 services:
   postgres:
-    container_name: base_images_postgres
     user: 1000:1001
     build:
       context: .
